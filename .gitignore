@@ -1,0 +1,6 @@
+.env
+.venv
+venv
+schema.sql
+scripts/
+wedding.service
