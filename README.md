@@ -116,6 +116,13 @@ Authorization: Bearer <token>
 
 ---
 
+# To run locally or debugging :
+## Run with this command first
+(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "[your_project_dir]\backend-service\venv\Scripts\Activate.ps1")
+## then
+python -m uvicorn app.main:app --reload
+
+
 ## Sample curl Requests
 
 ### 1. Login as WO
